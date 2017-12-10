@@ -1,0 +1,9 @@
+{
+  "unitId": "ID transmitted by the device",
+  "userId": "Unique ID for the user",
+  "segmentId": "ID of the segment",
+  "versionId": "Version of the device",
+  "userAgent": "Version of the SDK installed on the device that sent the information",
+  "deviceIP": "IP address of the device",
+  "additionalProperties": {}
+}
