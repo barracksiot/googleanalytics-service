@@ -1,0 +1,34 @@
+{
+  "deviceEvent": {
+    "request": {
+      "unitId": "ID transmitted by the device",
+      "userId": "Unique ID for the user",
+      "segmentId": "ID of the segment",
+      "versionId": "Version of the device",
+      "userAgent": "Version of the SDK installed on the device that sent the information",
+      "ipAddress": "IP address of the device",
+      "gaTrackingId": "UA-12345678-12",
+      "packages": [
+        {
+          "reference": "Reference of the first package",
+          "version": "Version for the first package"
+        },
+        {
+          "reference": "Reference of the second package",
+          "version": "Version for the second package"
+        }
+      ],
+      "customClientData": {}
+    },
+    "response": {
+      "changed": [],
+      "unchanged": [],
+      "available": [],
+      "unavailable": []
+    }
+  },
+  "hook": {
+    "name": "The name of this hook",
+    "gaTrackingId": "UA-12345678-12"
+  }
+}
